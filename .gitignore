@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.env
+.venv/
+env/
+venv/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+.idea/
+
+# MLflow artifacts
+mlruns/
+mlartifacts/
+
+# Python virtual environment
+.venv/
+.env/
+
+# Output folders
+output/
+
+# Pickle files
+*.pkl
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache (opcional)
+.streamlit/
+
+# Logs
+*.log
