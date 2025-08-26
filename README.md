@@ -20,16 +20,17 @@ The goal of the project is to build and evaluate machine learning models to pred
 ---
 
 ## 📂 Repository Structure
+.
+├── **data/**               # Dataset(s) used in the project
+├── **notebooks/**           # Jupyter notebooks with EDA, training, and evaluation
+├── **Python/**              # Streamlit app
+│   ├── **app.py**           # Main dashboard script
+│   ├── **pages/**           # Additional Streamlit pages
+│   │   ├── **description.py**
+│   │   └── **modelo.py**
+│   └── **requirements.txt** # Python dependencies
+└── **README.md**            # Project documentation
 
-├── data/ # Dataset(s) used in the project
-├── notebooks/ # Jupyter notebooks with EDA, training, and evaluation
-├── Python/ # Streamlit
-│ ├── app.py # Main dashboard script
-│ ├── pages/ # Additional Streamlit pages
-|   |__ description.py
-|   |__ modelo.py
-| |__ requirements.txt
-└── README.md # Project documentation
 
 
 ---
