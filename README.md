@@ -72,6 +72,11 @@ To run MLflow locally:
 ```bash
 mlflow ui
 ```
+## 🚀 Run the Notebooks to prepare data and model
+
+01_EDA.ipynb
+02_Training.ipynb
+
 
 ## 🚀 Run the Dashboard
 
