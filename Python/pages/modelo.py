@@ -107,7 +107,7 @@ entrada_df = pd.DataFrame([{
 
 st.markdown("---")
 
-if st.button("🔮 Predecir precio"):
+if st.button(" Predecir precio"):
     try:
         with st.spinner("Calculando predicción..."):
             pred = modelo.predict(entrada_df)
@@ -118,4 +118,4 @@ if st.button("🔮 Predecir precio"):
         </div>
         """, unsafe_allow_html=True)
     except Exception as e:
-        st.error(f"❌ Error al predecir: {str(e)}")
+        st.error(f" Error al predecir: {str(e)}")
